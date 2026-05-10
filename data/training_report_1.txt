@@ -1,0 +1,26 @@
+================================================================================
+                     REINFORCEMENT LEARNING TRAINING REPORT                     
+================================================================================
+
+## RUN METADATA
+Date:           2026-05-08 11:02:42
+Model:          meta-llama/Llama-3.2-1B-Instruct
+Dataset:        openai/gsm8k
+
+## HYPERPARAMETERS
+Steps               : 100
+Group Size (K)      : 15
+KL Coefficient      : 0.5
+Clip Epsilon        : 0.2
+PPO Epochs          : 5
+Learning Rate       : 1e-05
+
+## PERFORMANCE COMPARISON
+Metric                    | Baseline     | Post-Training   | Delta
+---------------------------------------------------------------------------
+Format Accuracy           |      46.00% |         72.00% |  +26.00%
+Answer Accuracy           |      30.00% |         32.00% |   +2.00%
+Combined Accuracy         |      18.00% |         28.00% |  +10.00%
+
+================================================================================
+End of Report
